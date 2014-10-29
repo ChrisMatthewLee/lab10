@@ -24,5 +24,15 @@ drawpad.grid(row=0, column=1)
 
 # Insert your code here to draw the house!
 
+#red outline
+red_square = drawpad.create_rectangle(200,200,600,500, )
 
+#window1
+window1 = drawpad.create_rectangle(250,350,300,300, fill= 'white')
+
+#window2
+window2 = drawpad.create_rectangle(550,350,500,300, fill= 'white')
+
+#door
+door = drawpad.create_rectangle(550,350,500,300, fill= 'white')
 root.mainloop()

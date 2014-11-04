@@ -39,4 +39,12 @@ window2 = drawpad.create_rectangle(550,350,500,300, fill= 'white')
 
 #door
 door = drawpad.create_rectangle(350,500,450,350, fill= 'white')
+
+#grass
+grass = drawpad.create_rectangle(0,500,1000,1000, fill= 'green')
+
+#handle
+handle = drawpad.create_rectangle(430,450,445,425,)
+
 root.mainloop()
+
